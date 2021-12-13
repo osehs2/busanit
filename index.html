@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BUSAN IT_윤소희</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+  <link href="css/main.css" rel="stylesheet">
+
+  <script src="js/jquery-1.12.3.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script>
+    $(document).ready(function(){//시작
+     var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+
+    });//끝
+  </script>
+
+</head>
+<body>
+  <div id="Wrap">
+    <form action="" method="">
+    <header>
+      <div class="inner">
+        <div class="head">
+          <h1><a href="index.html">BUSAN IT</a></h1>
+        <nav>
+          <ul class="clear">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">제품소개</a></li>
+            <li><a href="#">지속가능경영</a></li>
+            <li><a href="#">투자정보</a></li>
+            <li><a href="#">홍보센터</a></li>
+            <li><a href="#">인재채용</a></li>
+          </ul>
+        </nav>
+        <div class="search">
+          <fieldset>
+            <legend>검색어 입력</legend>
+            <label for="search">검색</label>
+            <input type="text" id="search" >
+            <button type="button">검색버튼</button><!-- 주의점!! -->
+          </fieldset>
+        </div><!--.search-->
+        </div><!--.head-->
+      </div><!--.inner-->
+    </header>
+
+    <div id="visual">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide v_01">
+            <a href="#" class="slide_box">
+              <!-- <img src="img/main.jpg" alt="메인이미지"> -->
+              <span>Making a better tomorrow</span>
+              <p>최고의 품질로<br>
+              고객을 감동시킵니다.</p>
+            </a>
+        </div>
+          <div class="swiper-slide v_02"><a href="#" class="slide_box">
+            <span>Making a better tomorrow</span>
+            <p>최신의 기술로<br>
+              고객을 감동시킵니다.</p>
+          </a></div>
+          <div class="swiper-slide v_03"><a href="#" class="slide_box">
+            <span>Making a better tomorrow</span>
+            <p>신속한 처리로<br>
+              고객을 감동시킵니다.</p>
+          </a></div>
+          <div class="swiper-slide v_04"><a href="#" class="slide_box">
+            <span>Making a better tomorrow</span>
+            <p>만족스러운 결과가<br>
+              고객을 감동시킵니다.</p>
+          </a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div><!--visual-->
+
+    <div class="sub_box">
+      <div class="inner">
+        <ul class="clear">
+          <li class="txt_box">
+            <h2>OUR BUSINESS</h2>
+            <p>CHALLENGE TOTHE WORLD</p>
+            <span>기술혁신과 변화를 통한 창조책 기술로<br>
+            인류의 행복에 기여하는 기업입니다.</span>
+            <a href="#" class="more">자세히보기</a>
+          </li>
+          <li class="img_box1"></li>
+          <li class="img_box2"></li>
+          <li class="txt_box2">
+            <h2>UX</h2>
+            <p>웹/모바일 사이트<br>
+              리뉴얼 및 구축</p>
+            <a href="#" class="more">자세히보기</a>
+          </li>
+          <li class="txt_box3">
+            <h2>management</h2>
+            <p>쇼핑몰 리뉴얼 및<br>
+              SNS 프로모션</p>
+            <a href="#" class="more">자세히보기</a>
+          </li>
+          <li>
+            <li class="img_box3"></li>
+          </li>
+        </ul>
+
+      </div><!--.inner-->
+    </div><!--.sub_box-->
+    <div class="side_bar1"></div>
+
+    <div class="mid_box">
+      <div class="inner">
+        <div class="txt_box">
+     <h3>컬러리스트 전문</h3>
+     <p>Color progessional</p>
+     <span>국내 컬러리스트 전문가들이<br>
+     직접 웹 디자인 및 구축하여<br>
+     보다 높은 퀄리티를 제공합니다.</span>
+     <a href="#" class="more">자세히보기</a>
+        </div><!--txt_box-->
+      </div><!--.inner-->
+    </div><!--.mid_box-->
+    <div class="side_bar2"></div>
+    <div class="news">
+      <div class="inner">
+        <h4>NEWS</h4>
+        <ul class="box">
+          <li>
+            <a href="#" class="clear">
+              <strong>[공지] 리뉴얼 오픈이벤트</strong>
+              <span>2021. 07. 20</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="clear">
+              <strong>[공지] 시스템 점검 안내</strong>
+              <span>2021. 07. 20</span>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="list">list</a>
+      </div><!--.inner-->
+    </div><!--.news-->
+    <div class="project">
+      <div class="inner">
+      <h5>project request</h5>
+      <p>프로젝트로 고민하고<br>계신가요?</p>
+      <span class="span">빛이 되어 드립니다.</span>
+      <div class=more>
+        <a href="#">의뢰하기</a>
+        <a href="#">유지보수 문의</a>
+      </div>
+      </div><!--.inner-->
+    </div><!--.project-->
+    <div class="footer">
+      <div class="inner">
+        <div class="f_info">
+        <address>주소 : 부산광역시 부산진구 중앙대로 708 부산파이낸스센터 4F, 5F 부산IT교육센터 </address>
+            <p><span>TEL : 051-753-5600</span><span>FAX : 051-753-511</span><span>FAX : 051-753-511</span></p>
+            <p>Copyright (c) 2021. All rights reserved.</p>
+            </div><!--.f_info-->
+      </div><!--.inner-->
+    </div><!--.footer-->
+    <a href="#" class="go_top">고정이동</a>
+  </form>
+  </div><!--#wrap-->
+</body>
+</html>
+

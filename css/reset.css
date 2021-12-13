@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@font-face{
+  font-family: NanumSquare;
+  font-style: normal;
+  font-weight: 400; /* normal */
+  src: local(NanumSquareR);
+  src: url(font/NanumSquareR.eot), /* IE 6~8, IE 호환성보기 */
+  url(font/NanumSquareR.woff2) format('woff2'),
+  url(font/NanumSquareR.woff) format('woff');
+
+}
+
+@font-face{
+  font-family: NanumSquare;
+  font-style: normal;
+  font-weight: 800; /* bold */
+  src: local(NanumSquareB);
+  src: url(font/NanumSquareB.eot), /* IE 6~8, IE 호환성보기 */
+  url(font/NanumSquareB.woff2) format('woff2'),
+  url(font/NanumSquareB.woff) format('woff');
+}
+
+*{margin: 0; padding: 0;}
+
+header, nav, section, footer, aside, figure, figcaption{
+  display: block;
+}
+
+body{font-family: 'NanumSquare', sans-serif; font-size: 16px; 
+  font-weight: 400; line-height: 1.35; color: #333;}
+ul, ol{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+a{text-decoration: none; color: #333;}
+img{vertical-align: top; border: 0;}
+input, select, button{vertical-align: top;}
+
+.clear::after{content: ''; display: block; clear: both;}
